@@ -31,11 +31,10 @@ class CodeBreaker {
             //result += "";
         }            
     }
-    //result = Array(equalDigits+1).join("x") + Array(containDigits+1).join("_");
+
     result = "x".repeat(equalDigits) + "_".repeat(containDigits);
     return result;
   }
 }
 
 module.exports = CodeBreaker;
-//export default class {}
